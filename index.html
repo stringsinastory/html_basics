@@ -50,8 +50,107 @@
         This will take in the file path for a particular image that you might want to use. 
     </p>
 
-    <img src="odin_images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg"> 
+    <img src="odin_images/charlesdeluvio-Mv9hjnEUHR4-unsplash.jpg" alt=" A pug wearing a hat "> 
 
+    <h3> Things learned outside the curriculum =</h3>
 
+    Some things which I did not learn in the course yet, but were very bothersome to me: 
+
+    <ul>
+        <li> div tag </li>
+        <li> id = "" </li>
+        <li> class = "" </li>
+    </ul>
+
+    <p> These appeared a lot in the code, however there was no previous mention as to why they existed. 
+    A note should be that this was written in the 29th of July, 2023. This would be something that
+    they probably address in the future. </p> 
+    
+    <p> From my naive understanding, div stands for a divider in html. This divider is useful, as it 
+        wraps content inside an element, without connoting very specific structure. This makes it 
+        very versatile. 
+    </p>
+
+    <p> The id attribute serves to supply a specific identifier to a particular element in HTML. 
+        The class attribute servers to supply an identifier to an an arbitraty amount of elements, 
+        and serves to identify particular categories. An example might be: footnotes. 
+    </p>
+    <h1> Introduction to CSS </h1>
+
+    <p> CSS, Cascading Style Sheets, serve to customise elements in your HTML project.  The syntax 
+    is the following: Selector, followed by curly braces, which take in a property: value input. 
+    The selector, chooses a HTML element. The property chooses a specific property of the HTML value, 
+    and the value manipulates the value of the HTML property. </p> 
+
+    <h3> The Universal Selector </h3>
+
+    <p> The universal selector selects all elements, and the syntax for it is *.  </p>
+
+    <h3> The Type Selector </h3>
+
+    <p> The type selector, or otherwise called the element selector, selects a particular 
+        element. The syntax for this is just the name of the element. 
+    </p>
+
+    <h3> The Class Selector </h3>
+
+    <p> The class selector selects a particular class. The class selector syntax is a period
+        followed by the exact name of the class. A note about adding a class attribute to a 
+        specific HTML element is that classes are made by a particular string of text, and 
+        adding a space indicates multiple classes, so hyphens are used when naming classes with 
+        more than a word. For a clearer explanation, please clik 
+        <a href="https://www.theodinproject.com/lessons/foundations-intro-to-css#class-selectors:~:text=Another%20thing%20you,a%20hyphen%20instead."
+        rel = "noopener noreferrer" > here </a>
+    </p>
+
+    <h3> The ID Class Selector</h3>
+
+    <p> The ID class selector selects the id, since any id is unique. The ID selector syntax 
+        is a hash symbol, and immediately after the exxact string combination which forms its 
+        name. It is said that a common pitfall is using ID selectors, when class selectors will 
+        suffice. ID selectors should be used sparingly, if at all. 
+    </p>
+
+    <h2> Chaining Selectors </h2>
+
+    <p> It is a common occurence when you would like to select multiple elements, classes or id's. 
+        Sometimes you would like to select each together within a single css command.
+    </p>
+
+    <h3> Multiple Selectors </h3>
+
+    <p> To chain multiple classes, we could either list them out using a comma as a seperation, 
+        or we could have them together, without either a comma or a space. The same can be used 
+        with id's, where you place the syntax immediately after the end of the name of a class. 
+        You are not able to chain multiple elements.
+    </p>
+
+    <h2> Combinators </h2>
+
+    <p> Sometimes you would like to select classes inside other classes. From here, using 
+        the Descendant Combinators method will allow you to do as such. The syntax for this 
+        operation is to add a space between the two classes/id's/elements, and followed by 
+        the regular notation. For using the descendant combinator method on two classes for example,
+        we would: .class1.class2. 
+    </p>
+
+     <h3> Order Matters </h3>
+
+     <p> In the cases where there is a style that applies a property twice. The style that was applied last, 
+         will be the one that will appear in your document. 
+     </p>
+
+     <h2> Adding CSS to HTML </h2>
+
+     <h3> External CSS</h3>
+
+     <p> External CSS, is the most common method. It involves creating a seperate file for your CSS
+        code, and linking it inside of an HTML's opening and closing head tags, with a self closing 
+        link element. Place a href attribute on the link, and set it equal to the location of the 
+        css file. Place a rel attribute, and type stylesheet. This shows the relationship between 
+        the html doccument and the css file, where the css file acts as the html file's stylesheet.    
+     </p>
 </body>
+
+
 </html>
