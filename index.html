@@ -150,7 +150,39 @@
         css file. Place a rel attribute, and type stylesheet. This shows the relationship between 
         the html doccument and the css file, where the css file acts as the html file's stylesheet.    
      </p>
+
+     <h2> CSS Cascading </h2>
+
+     <h3> Specificity</h3>
+
+     <p> CSS places significance over which styles appear. In the case where there are conflicting 
+        styles, CSS will decide to present the stlye which is the most specific. </p>
+
+        <ul>
+            <li> ID selector </li>
+            <li> Class selector </li>
+            <li> Type selector </li>
+            <li> Universal selector </li>
+        </ul>
+
+        <p> An ID selector, will always beat over any amount of class selectors. A class selector will 
+        always beat over any amount of type selectors. And lastly, type selectors, which always come
+        last in the specificity chain.  </p>
+
+        <p>  Suppose there is a style which uses a kind of selector, and there is another style, which 
+            uses the same kind of selector, but twice. The style which uses the same selector twice, is 
+            the style which takes precedance and takes appearance in the final document. 
+        </p>
+
+        <h3>Inheritance</h3>
+
+        <p> Cases of inheritence refer to when selectors are nested within each other.  Styles 
+            which target through an inheritence take less precedancce over styles which target
+            directly. 
+        </p>
+
 </body>
+
 
 
 </html>
